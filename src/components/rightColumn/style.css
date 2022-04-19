@@ -1,0 +1,100 @@
+.right-colunm{
+    /* max-width:62%;
+   
+    margin-right:2%; */
+    
+    background-color:#f0f0f0;
+    /* margin:0 2%; */
+    margin-top:0;
+    margin-right:2%;
+    margin-bottom:2%;
+    margin-left:2%;
+}
+@media screen and (mix-width:600px;){
+    .right-colunm{
+        max-width:60%;
+       
+        margin-top:0;
+        margin-right:2%;
+        margin-bottom:2%;
+        margin-left:0;
+        box-shadow:0 2px 4px gray;
+        background-color:#ffffff;
+        box-sizing:border-box;
+    }
+
+}
+.right-colunm-content{
+   
+}
+.summary{
+    background-color:#ffffff;
+    padding:10% 5%;
+    /* margin-top:4%; */
+    box-shadow:0 2px 4px gray;
+}
+.summary-text p{
+    font-size:15px;
+    font-weight:400;
+    color: rgb(0, 0, 0);
+    /* margin: 5% 0; */
+}
+
+.experience-container{
+ background-color:#ffffff;
+ padding:10% 5%;
+ margin-top:2%;
+ box-shadow:0 2px 4px gray;
+}
+.education-container{
+    background-color:#ffffff;
+    padding:10% 5%;
+    margin-top:2%;
+    box-shadow:0 2px 4px gray;
+   }
+   .certification{
+    background-color:#ffffff;
+    padding:10% 5%;
+    margin-top:2%;
+    box-shadow:0 2px 4px gray;
+   }
+.fa-suitcase, .fa-certificate{
+    font-size:36px;
+    color:#3b5998;
+}
+.experience-container h2, .education-container h2, .certification h2, .summary h2{
+    font-size:30px;
+    color: rgb(117, 117, 117);
+    font-weight:400;
+    margin-bottom:10%;
+}
+.Experience{
+    margin-top:5%;
+}
+.Experience h5{
+   color: rgb(0, 0, 0);
+   font-weight:700;
+   font-size:18px;
+   margin-bottom:5%;
+}
+.Experience h6{
+    font-size: 16px;
+    color:#3b5998;
+
+}
+.current-job{
+    background-color:#3b5998;
+    padding:3px 5px;
+    color:#ffffff;
+    border-radius:3px;
+    font-weight:400;
+}
+.Experience p{
+    font-size:15px;
+    font-weight:400;
+    color: rgb(0, 0, 0);
+    margin: 5% 0;
+}
+hr{
+    margin:4% 0;
+}

@@ -1,0 +1,265 @@
+.left-column{
+    /* max-width:32%; */
+   
+    /* margin-right:2%; */
+    /* margin:0 2%; */
+    margin-top:0;
+    margin-right:2%;
+    margin-bottom:2%;
+    margin-left:2%;
+    box-shadow:0 2px 4px gray;
+    background-color:#ffffff;
+}
+@media screen and (mix-width:600px;){
+    .left-column{
+        max-width:30%;
+        margin-top:0;
+        /* margin-right:2%; */
+        margin-bottom:2%;
+        margin-left:2%;
+        
+        box-shadow:0 2px 4px gray;
+        background-color:#ffffff;
+    }
+
+}
+.avater{
+    width:100%;
+}
+.left-column-content{
+    margin:5% 4%;
+}
+.my-name h2{
+    font-size:24px;
+    margin-left: 5%;
+    margin-top:5%;
+    font-weight:400;
+}
+.fa{
+    font-size:18px;
+    margin-right:8%;
+    color:#3B5998;
+}
+.basic-info p{
+    font-size:15px;
+    margin:5% 0;
+    color: rgb(117, 117, 117);
+    font-weight:400;
+}
+/* .skills{
+    margin-top:5%;
+} */
+.title{
+    font-size:18px;
+    color: rgb(117, 117, 117);
+    font-weight:700;
+    margin: 5% 0;
+}
+.skillname{
+    font-size:15px;
+    font-weight:400;
+    color: rgb(117, 117, 117);
+    margin: 5% 0;
+}
+
+.fima-skil{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.fima-skil .proficiency{
+    background-color:#3B5998;
+    width:70%;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}
+.html-skil{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.html-skil  .proficiency{
+    background-color:#3B5998;
+    width:100%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}
+.css-skil{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.css-skil .proficiency{
+    background-color:#3B5998;
+    width:100%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}
+.bootstrap-skil{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.bootstrap-skil .proficiency{
+    background-color:#3B5998;
+    width:100%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}
+.tailwind-skil{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.tailwind-skil .proficiency{
+    background-color:#3B5998;
+    width:100%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}
+.sass-skil{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.sass-skil .proficiency{
+    background-color:#3B5998;
+    width:100%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}
+.javascript-skil{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.javascript-skil .proficiency{
+    background-color:#3B5998;
+    width:100%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}
+.jquery-skil{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.jquery-skil .proficiency{
+    background-color:#3B5998;
+    width:100%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}
+.react-skil{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.react-skil .proficiency{
+    background-color:#3B5998;
+    width:60%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}
+/*********** language continaer style ***********/
+.languages {
+    margin-top:5%;
+}
+.english{
+    font-size:15px;
+    font-weight:400;
+    color: rgb(117, 117, 117);
+    margin: 5% 0;
+}
+.eng{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.eng  .eng-proficiency{
+    background-color:#3B5998;
+    width:100%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}
+.french{
+    font-size:15px;
+    font-weight:400;
+    color: rgb(117, 117, 117);
+    margin: 5% 0;
+}
+.french-div{
+    background-color:#f1f1f1;
+    height:20px;
+    border-radius:20px;
+}
+.french-div  .french-proficiency{
+    background-color:#3B5998;
+    width:80%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:400;
+    height:inherit;
+    border-radius:20px;
+}

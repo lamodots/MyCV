@@ -1,0 +1,24 @@
+.footer-container{
+    background-color: #3b5998;
+    display:flex;
+    justify-content:center;
+}
+.fa-github,.fa-twitter-square, .fa-linkedin-square{
+    color:#ffffff;
+    margin:5% 15%;
+}
+footer p{
+    color:#ffffff;
+    font-size:15px;
+    
+}
+footer a{
+    color:#ffffff;
+    text-decoration:none;
+}
+.social-info{
+    margin-top:10%;
+}
+.poweredby{
+    margin-bottom:10%;
+}
